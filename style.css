@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+form {
+    display: flex;
+    background-color: green;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#canvaContainer {
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+}
+canvas{
+    height: 100%;
+}
+
+h2{
+    margin: 1%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.a{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+.b{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: start;
+    flex-direction: column;
+}
+label{
+    font-weight: bolder;
+}
+button{
+    padding: 5px;
+}
+.thing{
+    gap:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#result{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
